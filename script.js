@@ -133,19 +133,3 @@ particlesJS("particles-js", {
   requestAnimationFrame(update);
 
 
-  function sendEmail() {
-    Email.send({
-      Host : "smtp.elasticemail.com",
-      Username : "addysotayo@gmail.com",
-      Password : "8257A2205BD4591451EF84BC681B2AEF70F4",
-      To : 'Afolabiogunmona137@gmail.com',
-      From : document.getElementById("email").value,
-      Subject : "New Contact Form Inquiry",
-      Body : "Name: " + document.getElementById("name").value
-         + "<br> Email: " + document.getElementById("email").value
-         + "<br> Phone no: " + document.getElementById("phone").value
-         + "<br> Message: " + document.getElementById("message").value
-  }).then(
-    message => alert("message sent successfully")
-   );
-  }
