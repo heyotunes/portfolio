@@ -14,6 +14,7 @@ ul {
  list-style-type: none;
   margin: 0;
   padding-right: 2em;
+  padding-bottom: 10px;
   overflow: hidden;
     background: rgb(245,107,29);
    background: linear-gradient(180deg, rgba(245,107,29,1) 14%, rgba(0,0,0,0.9885817307692307) 74%);
@@ -520,6 +521,10 @@ li a {
   min-height: 100px;
 }
 
+.contact-title {
+    margin-top: 3em;
+    
+}
 
 .contact-title h1{
     margin-top: 2em;
@@ -536,17 +541,20 @@ li a {
     font-weight: 400;
     line-height: 30px;
     
+   
+    
 }
 
 .contact-container {
-   
+   padding-bottom: 0em;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background: white;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 9999;
+   
    
 }
 
@@ -589,12 +597,6 @@ form button{
     width: 150px;
     margin: 20px auto 0;
     border-radius: 30px;
-}
-
-#status{
-    text-align: center;
-    color: green;
-    font-size: 16px;
 }
 
 .footer-container{
@@ -798,13 +800,15 @@ footer p{
     }
 
     .contact-title {
-        min-height: 600px;
+     height: 150vh;
         padding: 0em 6em;
+       
     }
 
 
     .contact-container {
-        height: 80vh; 
+        padding-top: 4em; 
+        
         
     }
 
@@ -857,14 +861,19 @@ footer p{
         padding-left: 6em;
     }
 
+   
     .contact-title {
-        padding: 0em 6em;
-    }
-
-
-    .contact-container {
-        height: 80vh; 
-    }
+        height: 150vh;
+           padding: 0em 6em;
+          
+       }
+   
+   
+       .contact-container {
+           padding-top: 4em; 
+           
+           
+       }
 
    }
 
@@ -1005,6 +1014,7 @@ footer p{
 
 
     .contact-container {
+        padding-top: 9em;
         height: 80vh; 
         
     }
