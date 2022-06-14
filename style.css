@@ -798,6 +798,7 @@ footer p{
     }
 
     .contact-title {
+        min-height: 600px;
         padding: 0em 6em;
     }
 
