@@ -276,7 +276,6 @@ li a {
   min-height: 800px;
   background-color: black;
   margin-top: 4em;
-  display: flex;
 }
 
 .project-title h1 {
