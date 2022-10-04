@@ -274,8 +274,9 @@ li a {
 
 .project-container {
   min-height: 800px;
-  background-color: white;
+  background-color: black;
   margin-top: 4em;
+  display: flex;
 }
 
 .project-title h1 {
