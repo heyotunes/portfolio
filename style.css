@@ -687,10 +687,14 @@ footer p {
 }
 .goodeat-container {
   margin-left: 12em;
-  padding: 4em;
+
   display: flex;
   width: 20%;
   height: 60%;
+}
+
+.goodeat-container img {
+  padding: 4em;
 }
 
 .project-details-1 h3 {
