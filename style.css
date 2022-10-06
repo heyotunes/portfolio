@@ -290,12 +290,13 @@ li a {
   display: flex;
   margin-top: 6em;
 }
-.project-detailsgoodeat {
-  display: flex;
-  margin-top: 9em;
-}
 
 .project-text {
+  padding-left: 6em;
+  padding-right: 4em;
+  padding-top: 2em;
+}
+.project-textgoodeat {
   padding-left: 6em;
   padding-right: 4em;
   padding-top: 2em;
