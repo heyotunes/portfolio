@@ -686,7 +686,8 @@ footer p {
   height: 70%;
 }
 .goodeat-container {
-  margin-left: 7em;
+  margin-left: 12em;
+  padding: 4em;
   display: flex;
   width: 20%;
   height: 60%;
