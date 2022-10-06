@@ -686,7 +686,7 @@ footer p {
   height: 70%;
 }
 .goodeat-container {
-  margin-left: 12em;
+  margin-left: 15em;
 
   display: flex;
   width: 20%;
@@ -694,7 +694,7 @@ footer p {
 }
 
 .goodeat-container img {
-  gap: 6em;
+  padding-left: 8em;
 }
 
 .project-details-1 h3 {
