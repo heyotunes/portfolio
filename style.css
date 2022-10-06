@@ -290,16 +290,28 @@ li a {
   display: flex;
   margin-top: 6em;
 }
-
-.project-text {
-  padding-left: 6em;
-  padding-right: 4em;
-  padding-top: 2em;
-}
 .project-textgoodeat {
   padding-left: 6em;
   padding-right: 4em;
   padding-top: 8em;
+}
+.project-textgoodeat h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+.project-textgoodeat p {
+  color: white;
+  padding-right: 5em;
+  text-align: justify;
+  padding-top: 1em;
+  line-height: 30px;
+  font-size: 20px;
+}
+.project-text {
+  padding-left: 6em;
+  padding-right: 4em;
+  padding-top: 2em;
 }
 .project-text h3 {
   color: white;
