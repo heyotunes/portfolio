@@ -685,6 +685,11 @@ footer p {
   width: 50%;
   height: 70%;
 }
+.goodeat-container {
+  display: flex;
+  width: 20%;
+  height: 60%;
+}
 
 .project-details-1 h3 {
   color: white;
