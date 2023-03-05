@@ -279,6 +279,12 @@ li a {
   background-color: black;
   margin-top: 4em;
 }
+.project-containermobile {
+  min-height: 800px;
+  background-color: black;
+  margin-top: 3em;
+  justify-content: center;
+}
 
 .project-title h1 {
   color: white;
@@ -307,6 +313,7 @@ li a {
   padding-right: 5em;
   text-align: justify;
   padding-top: 1em;
+  width: 45em;
   line-height: 30px;
   font-size: 20px;
 }
@@ -406,6 +413,73 @@ li a {
   left: 5%;
   background-color: black;
 }
+.clickriz1 {
+  width: 260px;
+  height: 50px;
+  border-radius: 2px;
+  position: relative;
+  left: calc(50% - 75px);
+  top: calc(50% - 25px);
+  background: rgb(249, 73, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 73, 0, 1) 41%,
+    rgba(242, 193, 89, 1) 75%
+  );
+  cursor: pointer;
+  line-height: 12px;
+  box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
+}
+
+.clickriz1::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  display: block;
+  width: 80%;
+  height: 70%;
+  top: 15%;
+  left: 10%;
+  filter: blur(15px);
+  opacity: 0;
+  background: rgb(249, 73, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 73, 0, 1) 41%,
+    rgba(242, 193, 89, 1) 75%
+  );
+  transition: 0.3s opacity ease-in-out;
+}
+
+.clickriz1:hover::before {
+  opacity: 1;
+  transition: 0.3s opacity ease-in-out;
+  filter: blur(25px);
+  background: rgb(249, 73, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 73, 0, 1) 41%,
+    rgba(242, 193, 89, 1) 75%
+  );
+}
+
+.clickriz1::after {
+  content: "Download on the App Store";
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  z-index: 5;
+  position: absolute;
+  display: block;
+  border-radius: 2px;
+  width: 90%;
+  height: 80%;
+  top: 10%;
+  left: 5%;
+  background-color: black;
+}
 
 .click11 {
   width: 150px;
@@ -489,7 +563,7 @@ li a {
 
 .cont {
   background-color: black;
-  color: white;
+  color: #f56b1d;
   font-size: 15px;
   border: none;
   text-decoration: underline;
@@ -676,8 +750,17 @@ footer p {
 }
 
 .project-details-1 {
-  margin-top: 4em;
-  justify-content: center;
+  margin-top: 9em;
+  align-self: center;
+  margin-left: 60px;
+  align-items: center;
+  text-align: center;
+  z-index: 9999;
+}
+.projectneura-details-1 {
+  margin-top: 9em;
+  align-self: center;
+  margin-right: 100px;
   align-items: center;
   text-align: center;
   z-index: 9999;
@@ -699,6 +782,22 @@ footer p {
   margin-left: 8em;
   border-radius: 1em;
 }
+.goodeatneura-container {
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  justify-self: center;
+  justify-items: center;
+  margin-left: 15em;
+  display: flex;
+  width: 60%;
+  height: 80%;
+}
+
+.goodeatneura-container img {
+  margin-left: 8em;
+  border-radius: 1em;
+}
 
 .project-details-1 h3 {
   color: white;
@@ -706,11 +805,33 @@ footer p {
   font-weight: 900;
   margin-top: 1em;
 }
+.projectneura-details-1 h3 {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: -1em;
+}
 .project-details-1 h2 {
   color: white;
   font-size: 40px;
   font-weight: 500;
   margin-top: 1em;
+}
+.projectneura-details-1 h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 2em;
+}
+.projectneura-details-1 p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding: 1em 1em;
+  margin-top: 3em;
+  line-height: 40px;
+  font-size: 25px;
+  text-align: center;
 }
 .project-details-1 p {
   color: white;
@@ -847,6 +968,9 @@ footer p {
   }
 
   .project-image {
+    padding-left: 6em;
+  }
+  .project-image1 {
     padding-left: 6em;
   }
 
